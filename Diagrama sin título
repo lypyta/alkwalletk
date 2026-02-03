@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.3.6">
+  <diagram name="Página-1" id="N02hXmpWBcrIBkC8Tn5b">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9iqL-RdMS9iMUX9DiZSl-21" edge="1" parent="1" source="9iqL-RdMS9iMUX9DiZSl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9iqL-RdMS9iMUX9DiZSl-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9iqL-RdMS9iMUX9DiZSl-12" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;gradientColor=#b3b3b3;strokeColor=#666666;" value="TRANSACCIONES" vertex="1">
+          <mxGeometry height="104" width="270" x="140" y="461" as="geometry" />
+        </mxCell>
+        <mxCell id="9iqL-RdMS9iMUX9DiZSl-13" parent="9iqL-RdMS9iMUX9DiZSl-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ depositar(monto: double): void" vertex="1">
+          <mxGeometry height="26" width="270" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9iqL-RdMS9iMUX9DiZSl-14" parent="9iqL-RdMS9iMUX9DiZSl-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ retirar(monto: double): boolean" vertex="1">
+          <mxGeometry height="26" width="270" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9iqL-RdMS9iMUX9DiZSl-15" parent="9iqL-RdMS9iMUX9DiZSl-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ convertir(tasa: double): double" vertex="1">
+          <mxGeometry height="26" width="270" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="9iqL-RdMS9iMUX9DiZSl-17" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;gradientColor=#b3b3b3;strokeColor=#666666;" value="CUENTA BANCARIA" vertex="1">
+          <mxGeometry height="286" width="410" x="510" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="9iqL-RdMS9iMUX9DiZSl-18" parent="9iqL-RdMS9iMUX9DiZSl-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- titular: String" vertex="1">
+          <mxGeometry height="26" width="410" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9iqL-RdMS9iMUX9DiZSl-19" parent="9iqL-RdMS9iMUX9DiZSl-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- saldo: double" vertex="1">
+          <mxGeometry height="26" width="410" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9iqL-RdMS9iMUX9DiZSl-20" parent="9iqL-RdMS9iMUX9DiZSl-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ CuentaBancaria(titular: String, saldoInicial: double)" vertex="1">
+          <mxGeometry height="26" width="410" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="9iqL-RdMS9iMUX9DiZSl-23" parent="9iqL-RdMS9iMUX9DiZSl-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getTitular(): String" vertex="1">
+          <mxGeometry height="26" width="410" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="9iqL-RdMS9iMUX9DiZSl-24" parent="9iqL-RdMS9iMUX9DiZSl-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ setTitular(nombre: String): void" vertex="1">
+          <mxGeometry height="26" width="410" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9iqL-RdMS9iMUX9DiZSl-26" parent="9iqL-RdMS9iMUX9DiZSl-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getSaldo(): double" vertex="1">
+          <mxGeometry height="26" width="410" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="9iqL-RdMS9iMUX9DiZSl-27" parent="9iqL-RdMS9iMUX9DiZSl-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ setSaldo(monto: double): void" vertex="1">
+          <mxGeometry height="26" width="410" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="9iqL-RdMS9iMUX9DiZSl-29" parent="9iqL-RdMS9iMUX9DiZSl-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ depositar(monto: double): void" vertex="1">
+          <mxGeometry height="26" width="410" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="9iqL-RdMS9iMUX9DiZSl-30" parent="9iqL-RdMS9iMUX9DiZSl-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ retirar(monto: double): boolean" vertex="1">
+          <mxGeometry height="26" width="410" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="9iqL-RdMS9iMUX9DiZSl-31" parent="9iqL-RdMS9iMUX9DiZSl-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ convertir(tasa: double): double" vertex="1">
+          <mxGeometry height="26" width="410" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="9iqL-RdMS9iMUX9DiZSl-22" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.474;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.515;entryY=1.077;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="268" y="690" />
+              <mxPoint x="490" y="690" />
+              <mxPoint x="721" y="690" />
+            </Array>
+            <mxPoint x="267.98" y="564.998" as="sourcePoint" />
+            <mxPoint x="721.1500000000001" y="657.012" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
